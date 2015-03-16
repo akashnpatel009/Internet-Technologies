@@ -1,0 +1,34 @@
+List of intalled items
+pip freeze
+
+Install new item
+pip install Django=1.7.4
+
+Create virtual evn
+virtualenv venv
+
+Activate Env
+.\Scripts\activate
+
+Create a new Project
+python django-admin.py startproject myshop
+
+Setup DB
+python manage.py syncdb
+
+Launch Server
+D:\MY\GRE\CMU Done\Dropbox\Study Material\Spring\Mini 3\IT\Django\temp\myshop
+python manage.py runserver
+
+
+
+Cart:
+django-admin startproject example
+cd example
+django-admin startapp myshop
+
+virtualenv . 
+.\Scripts\activate
+pip install south
+pip install django-shop
+pip install jsonfield
